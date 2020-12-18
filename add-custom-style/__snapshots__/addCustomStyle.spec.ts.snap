@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`style decorator attributes surrounded by space must still be valid 1`] = `
+<body>
+  <style
+    id="myStyle"
+  >
+    .someClassName  {background-color: #cccccc;} 
+  </style>
+</body>
+`;
+
+exports[`style decorator creates a style with a provided mediaQuery 1`] = `
+<body>
+  <style
+    id="myStyle"
+  >
+    @media (max-width: 909px){.someClassName{background-color: #cccccc;}}
+  </style>
+</body>
+`;
+
+exports[`style decorator creates a style without mediaquery 1`] = `
+<body>
+  <style
+    id="myStyle"
+  >
+    .someClassName{background-color: #cccccc;}
+  </style>
+</body>
+`;
