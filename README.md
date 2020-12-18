@@ -6,4 +6,7 @@ To install dependencies run `npm install` in the repo root. To run tests, execut
 
 ## Test coverage
 
+----
+
+![alt text](testcoverage.png)
 
